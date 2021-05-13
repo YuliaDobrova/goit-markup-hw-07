@@ -1,0 +1,15 @@
+.modal-button-cross {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  &:hover .icon-cross,
+  &:focus .icon-cross {
+    fill: $accent-blue-color;
+  }
+}

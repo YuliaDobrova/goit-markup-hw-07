@@ -1,0 +1,27 @@
+/* === HEADER === */
+.header {
+  border-bottom: 1px solid #ececec;
+
+  &__container {
+    display: flex;
+    align-items: center;
+  }
+
+  &__logo {
+    margin-right: 70px;
+    color: $title-text-color;
+    &-accent {
+      color: $accent-blue-color;
+    }
+  }
+
+  &__navigation {
+    display: flex;
+  }
+
+  &__address {
+    margin-left: auto;
+  }
+}
+
+/* === END HEADER === */
